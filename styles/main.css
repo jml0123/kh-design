@@ -1,0 +1,73 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #fafafa;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+main {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.kh-texture-bg {
+    margin: 0 auto;
+    position: absolute;
+    opacity: 0.88;
+    max-height: 100vh;
+    max-width: 100vw;
+}
+a {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.kh-logo-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2em;
+    max-width: 70%;
+    background-image: url("../assets/img/paper.jpeg");
+    border-radius: 12px;
+    box-shadow: 0 8px 6px -6px black;
+
+}
+
+.kh-logo-wrapper img {
+    padding: 2em;
+    width: 100%;
+    max-width: 750px;
+}
+
+.kh-wip-banner {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.kh-wip-message-wrapper {
+    bottom: 0;
+    font-size: 19px;
+    font-weight: 200;
+    font-style: italic;
+    color: #0f0f0f;
+    margin: 1em auto;
+}
+
+@media screen and (max-width: 700px) {
+    .kh-logo-wrapper {
+        max-width: 100%;
+    }
+    .kh-wip-message-wrapper {
+        font-size: 15px;
+    }
+}
